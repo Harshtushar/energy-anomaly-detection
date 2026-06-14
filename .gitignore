@@ -1,9 +1,58 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-venv/
+# Python
 __pycache__/
-*.pyc
-models/*.pkl
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# Jupyter
 .ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# SQLite Databases
+*.db
+*.db-journal
+
+# Generated Results
+results/
+
+# Large Dataset
 data/BDG2/
+
+# Generated/Test Model Directories
+data/live_models/
+data/test_live_models/
+data/test_live_models_2/
+data/test_live_models_3/
+data/test_live_models_4/
+data/tmp_auth_validation/
+
+# Model Artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS Files
 .DS_Store
 Thumbs.db
+# Generated history results
+data/history_results/
